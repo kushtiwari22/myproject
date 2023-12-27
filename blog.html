@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Blog</title>
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+  <header class="abc">
+    <div id="container">
+      <h1 id="name">Kushagra tiwari</h1>
+      <div id="nav-links">
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="work.html">Work with me</a>
+          <a href="cv.html">cv</a>
+      </div>
+  </div>
+</header>
+<br><br><br><br>
+<h1 id="post">Posts</h1>
+<br>
+<br>
+<h2 id="welcome">welcome to my blog </h2>
+  <main>
+    <section class="blog-part">
+      <h2 class="blog-title">Title of the Blog</h2>
+      <p class="blog-date">December 23, 2023</p>
+      <img src="https://i.imgur.com/1tKjz8v.jpg" alt="Blog Image">
+      <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien vel bibendum lacinia, velit sapien faucibus sapien, vel luctus sapien sapien vel sapien. Sed euismod, sapien vel bibendum lacinia, velit sapien faucibus sapien, vel luctus sapien sapien vel sapien.</p>
+    </section>
+
+    <section class="blog-part">
+      <h2 class="blog-title">Title of the Blog</h2>
+      <p class="blog-date">December 22, 2023</p>
+      <img src="https://i.imgur.com/1tKjz8v.jpg" alt="Blog Image">
+      <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien vel bibendum lacinia, velit sapien faucibus sapien, vel luctus sapien sapien vel sapien. Sed euismod, sapien vel bibendum lacinia, velit sapien faucibus sapien, vel luctus sapien sapien vel sapien.</p>
+    </section>
+
+    <section class="blog-part">
+      <h2 class="blog-title">Title of the Blog</h2>
+      <p class="blog-date">December 21, 2023</p>
+      <img src="https://i.imgur.com/1tKjz8v.jpg" alt="Blog Image">
+      <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien vel bibendum lacinia, velit sapien faucibus sapien, vel luctus sapien sapien vel sapien. Sed euismod, sapien vel bibendum lacinia, velit sapien faucibus sapien, vel luctus sapien sapien vel sapien.</p>
+  
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: <a href="mailto:contact@example.com">contact@example.com</a></p>
+    <div class="social-icons">
+        <a href="https://www.instagram.com" target="_blank"><img src="image9 - Copy.jpeg" alt="Instagram"></a>
+        <a href="https://www.facebook.com" target="_blank"><img src="image 11 - Copy.png" alt="Facebook"></a>
+        <a href="https://www.linkedin.com" target="_blank"><img src="image 12 - Copy.png" alt="LinkedIn"></a>
+    </div>
+    <div class="container">
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+      </div>
+      <script>
+        const homeLink = document.getElementById('homeLink');
+        const blogLink = document.getElementById('blogLink');
+        const workLink = document.getElementById('workLink');
+        const cvLink = document.getElementById('cvLink');
+
+        // Add click event listeners
+        homeLink.addEventListener('click', () => {
+            // Redirect to the same page or do other actions
+            window.location.href = 'index.html';
+        });
+
+        blogLink.addEventListener('click', () => {
+            // Redirect to the blog page
+            window.location.href = 'blog.html';
+        });
+
+        workLink.addEventListener('click', () => {
+            // Redirect to the work page
+            window.location.href = 'work.html';
+        });
+        workLink.addEventListener('click', () => {
+            // Redirect to the work page
+            window.location.href = 'cv.html';
+        });
+    </script>
+</footer>
+</body>
+</html>

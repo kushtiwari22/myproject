@@ -1,0 +1,105 @@
+#container {
+  background-color: black;
+  color: white;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
+}
+
+#nav-links {
+  display: flex;
+  gap: 20px;
+  padding-right: 60px;
+}
+
+#nav-links a {
+  text-decoration: none;
+  color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #2d2c2e;
+  }
+#work{
+    margin-left: 25px;
+    color: white;
+  }
+  #work2{
+    height: 100px;
+    color: white;
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #333;
+    height: 400px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 80px;
+    text-decoration: none;
+    color: rgb(130, 12, 12);
+}
+
+.social-icons img {
+    width: 70px;
+    height: 70px;
+}

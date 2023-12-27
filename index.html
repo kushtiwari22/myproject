@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body class="body">
+<video autoplay muted loop id="myVideo">
+        <source src="circuit_-_27725 (Original).mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+ </video>
+    <header class="abc">
+        <div id="container">
+            <h1 id="name">Kushagra tiwari</h1>
+            <div id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="work.html">Work with me</a>
+                <a href="cv.html">cv</a>
+            </div>
+        </div>
+    </header>
+    <hr id="white">
+    <div class="box1">
+        <div id="abc"></div>
+        <div id="acd">
+            <h1>Kushagra tiwari</h1>
+            <h2 id="qwe">Age : 17</h2>
+            <h2 id="wer">iit bhubaneshwar</h2>
+        </div>
+    </div>
+    <div id="qer">
+        <div id="qrt">
+            <h1>    HEY!</h1>
+            <h2 id="font1">   I'm Kushagra Tiwari from Jaipur, Rajasthan, currently pursuing my undergraduate studies at IIT Bhubaneswar. I have a passion for programming, web development, and extensive experience in machine learning. Feel free to get in touch or take a look at my past work below.</h2>
+        </div>
+    </div>
+    <div  id="dfg">
+         <h1>PORTFOLIO</h1>
+    </div>
+    <div class="container2">
+        <div class="ku">
+            <h1 class="project1">&nbsp;&nbsp;&nbsp;&nbsp;Web Development</h1>
+            <div id="black-box" class="boxy"></div>
+            <ul id="webd">
+                <li>
+                    <h2 id="white">HTML</h2>
+                    <img src="download.png" alt="HTML Icon"> 
+                </li>
+                <li>
+                    <H2 id="white">CSS</H2>
+                    <img src="download (1).png" alt="CSS Icon"> 
+                </li>
+                <li>
+                    <H2 id="white">JavaScript</H2>
+                    <img src="java script.png" alt="JavaScript Icon"> 
+                </li>
+            </ul>            
+        </div>
+        <div class="ku">
+            <h1 class="project1">Data Science</h1>
+            <div id="grey-box" class="boxy"></div>
+            <ul id="ds">
+                <li>
+                    <h2 id="white">machine learning</h2>
+                    <img src="machine learning.png" alt="HTML Icon"> 
+                </li>
+                <li>
+                    <h2 id="white">deep learning</h2>
+                    <img src="deep learning.png" alt="CSS Icon"> 
+                </li>
+            <ul>
+        </div>
+        <div class="ku">
+            <h1 class="project1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programming </h1>
+            <div id="white-box" class="boxy"></div>
+            <ul id="program">
+                <li>
+                    <h2 id="white">python</h2>
+                    <img src="download (1).png" alt="HTML Icon"> 
+                </li>
+                <li>
+                    <h2 id="white">c</h2>
+                    <img src="c.png" alt="CSS Icon"> 
+                </li>
+                <li>
+                    <h2 id="white">c++</h2>
+                    <img src="c++.png" alt="JavaScript Icon"> 
+                </li>
+            </ul> 
+        </div>
+    </div>
+    <div id="contact">
+       <h1 id="me"> contact me !!</h1>
+    </div>
+    <div id="form2">
+        <div class="container3">
+          <h2>Contact</h2>
+          <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <button type="submit" onclick="submitForm()">Send Message</button>
+          </form>
+        </div>
+      <div>
+    <footer>
+        <p>Contact: <a href="mailto:kushtiwari@gmail.com">kushtiwari@gmail.com</a></p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank"><img src="image9 - Copy.jpeg" alt="Instagram"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="image 11 - Copy.png" alt="Facebook"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="image 12 - Copy.png" alt="LinkedIn"></a>
+        </div>
+        <div class="container">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+          </div>
+    </footer>
+    <script>
+        function submitForm() { 
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            if (name && email && message) {
+                alert("Form submitted successfully!");
+            } else {
+                alert("Please fill in all fields.");
+            }
+        }
+        const homeLink = document.getElementById('homeLink');
+        const blogLink = document.getElementById('blogLink');
+        const workLink = document.getElementById('workLink');
+        const cvLink = document.getElementById('cvLink');
+        homeLink.addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+
+        blogLink.addEventListener('click', () => {
+            window.location.href = 'blog.html';
+        });
+
+        workLink.addEventListener('click', () => {
+            window.location.href = 'work.html';
+        });
+        workLink.addEventListener('click', () => {
+            window.location.href = 'cv.html';
+        });
+    </script>
+</body> 
+</html>
