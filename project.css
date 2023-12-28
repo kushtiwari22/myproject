@@ -35,15 +35,16 @@
 .box1 {
     /* background-image: url("image4.jpg");
     background-size: cover; */
-    height: 900px; 
-    margin-top: 80px; 
+    /* height: 1200px;  */
+    height: 100vh;
+    /* margin-top: 80px;  */
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 10px;
 
 }
-#abc {
+#ahf {
     border-radius: 150px; 
     background-image: url("amir.jpeg");
     background-size: cover;
@@ -97,7 +98,7 @@
     height: 2000px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     align-content: space-evenly;
 }
@@ -226,52 +227,16 @@ footer {
     height: 70px;
 }
 @media only screen and (max-width: 768px) {
-    #container {
-        padding-left: 10px;
-        padding-right: 10px;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    #nav-links {
-        flex-direction: column;
-        padding-right: 0;
-        text-align: center;
-    }
-
     .box1 {
-        height: auto;
-        flex-direction: column;
-        align-items: center;
+        width: 100%; /* Take the full width of the screen */
+        padding: 20px; /* Adjust padding for spacing */
+        box-sizing: border-box; /* Include padding in the width calculation */
     }
 
-    #abc,
-    #acd,
-    #qer,
-    #qrt,
-    #dfg,
-    .container2,
-    .ku,
-    .boxy,
-    #black-box,
-    #grey-box,
-    #white-box,
-    h1.project1,
-    #white,
-    #contact,
-    #me,
-    #form2,
-    .container3,
-    form,
-    label,
-    input,
-    textarea,
-    button,
-    footer,
-    .social-icons,
-    .social-icons a,
-    .social-icons img {
-        width: 100%;
-        margin: 10px;
+    #ahf {
+        width: 100%; 
+        height: auto; 
+        margin-top: 20px; 
+        position: static; 
     }
 }
