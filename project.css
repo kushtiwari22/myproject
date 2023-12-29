@@ -1,6 +1,8 @@
+}
 #container {
     background-color: black;
     color: white;
+    height: 8vh;
     padding-left: 30px;
     display: flex;
     justify-content: space-between;
@@ -8,14 +10,13 @@
     font-family: 'Arial', sans-serif;
     position: fixed;
     width: 100%;
-    top: 0;
     z-index: 1000;
     border-bottom: 1px solid white; 
 }
 #nav-links {
     display: flex;
-    gap: 40px;
-    padding-right: 60px;
+    gap: 35px;
+    padding-right: 70px;
     font-size: 30px;
 }
 
@@ -37,29 +38,32 @@
     background-size: cover; */
     /* height: 1200px;  */
     height: 100vh;
+    /* height: 55em; */
     /* margin-top: 80px;  */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 
 }
-#ahf {
-    border-radius: 150px; 
+#myphoto {
+    border-radius: 15em; 
     background-image: url("amir.jpeg");
     background-size: cover;
-    width: 300px; 
-    height: 300px; 
+    width: 15em; 
+    height: 15em; 
+    /* margin-left: 35em; */
+    /* margin-right: 20em; */
     position: absolute; 
-    top: 200px; 
+    top: 20%; 
 }
 #acd {
-    height: 300px; 
+    height: 25%; 
     position: absolute; 
-    top: 500px; 
+    top: 55%; 
     color: white;
     font-size: 30px;
-    padding-left: 100;
+    /* margin-left: 25em; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,34 +96,38 @@
     margin-bottom: 30px;
  }  
  .container2 {
-    /* background-image: url("image.jpg");
-    background-size: cover; */
-
-    height: 2000px;
+    /* background-color: white; */
+    height: 200vh;
+    margin-top: 10em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    align-content: space-evenly;
+    align-content: space-around;
 }
 
 .ku {
-    width: 1800px;
-    height: 300px;
+    width: 60%;
+    height: 10%;
     background-color: rgb(54, 54, 54);
     border-radius: 30px;
     border-color: rgb(255, 255, 255);
-    margin: 150px;
+    margin: 10%;
+    transition: transform 0.5s ease-in-out;
     display: flex;
+    justify-content: center;
     align-items: center; 
+    align-content: space-around;
 }
-
+.ku:hover {
+    transform: scale(1.08);
+}
 .boxy {
-    height: 200px;
-    width: 200px;
+    height: 10em;
+    width: 10em;
     border-radius: 20px;
-    margin: 200px;
-    padding-right: 100px; 
+    margin: 10%;
+    /* padding-left: 100px;  */
 }
 #black-box {
     background-image: url(OIP.jpeg);
@@ -144,62 +152,87 @@ h1.project1 {
     color: white;
     font-size: 20px;
 }
-    #contact {
-        background-color: #000000;
-        color: white;
-        text-align: center;
-        padding: 50px 0; /* Add padding for better spacing */
-    }
-    
-    #me {
-        font-size: 40px;
-    }
-    
-    #form2 {
-        /* background-color: #444; Slightly lighter background color */
-        padding: 30px;
-    }
-    
-    .container3 {
-        max-width: 800px; /* Adjust the maximum width of the form container */
-        margin: 0 auto; /* Center the form container */
-    }
-    
-    form {
-        display: grid;
-        grid-gap: 20px;
-    }
-    
-    label,
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        color: #fff; /* White text color */
-        font-size: 18px;
-    }
-    
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-    
-    button {
-        padding: 15px; /* Increase padding for a larger button */
-        background-color: #3498db; /* Button color */
-        color: white;
-        border: none;
-        cursor: pointer;
-        font-size: 20px;
-    }
-    
-    button:hover {
-        background-color: #2980b9; /* Darker color on hover */
-    }
-    
-    
+#contact {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px 0; /* Add padding for better spacing */
+}
+
+#me {
+    font-size: 40px;
+}
+#form2 {
+    background-color: #fff; /* Set white background color */
+    padding: 30px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+.container3 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+label,
+input[type="text"],
+input[type="email"],
+textarea {
+    color: #333; /* Set text color to a dark color */
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Add a light border for separation */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+button {
+    padding: 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+.blogp {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .blogt {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .blogd {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .blogc{
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
 footer {
     background-color: #000000;
     height: 400px;
@@ -225,18 +258,4 @@ footer {
 .social-icons img {
     width: 70px;
     height: 70px;
-}
-@media only screen and (max-width: 768px) {
-    .box1 {
-        width: 100%; /* Take the full width of the screen */
-        padding: 20px; /* Adjust padding for spacing */
-        box-sizing: border-box; /* Include padding in the width calculation */
-    }
-
-    #ahf {
-        width: 100%; 
-        height: auto; 
-        margin-top: 20px; 
-        position: static; 
-    }
 }
